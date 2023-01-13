@@ -11,7 +11,7 @@ function Navbar() {
     }
     return (
         <header>
-            <h3 className="logo">Portfolio</h3>
+            <h3 className="text-3xl font-bold italic">Portfolio</h3>
             <nav ref={navRef}>
                 <a href="/#">Home</a>
                 <a href="/#">Award</a>
