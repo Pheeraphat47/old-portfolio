@@ -24,14 +24,14 @@ header {
 
 
 
-nav a{
+.nav-link{
     margin: 0 2rem  ;
     color: var(--textNavColor);
     text-decoration: none;
     font-size: 1.25em;    
 }
 
-nav a:hover{
+.nav-link:hover{
     color: var(--secondaryNavColor);
 }
 
@@ -71,7 +71,7 @@ header .nav-btn {
         justify-content: center;
         gap: 5rem;
         background-color: var(--mainNavColor);
-        transition: 1s;
+        transition: 0.8s;
         transform: translateY(-100vh);
     }
 
@@ -85,7 +85,7 @@ header .nav-btn {
         right: 2rem;        
     }
 
-    nav a {
+    .nav-link {
         font-size: 1.5rem;
     }
 
