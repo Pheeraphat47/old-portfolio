@@ -23,8 +23,9 @@ function Home() {
       </div>
 
       <div id="education" className="mt-44 text-center">
-        <h2 className="text-3xl mb-10 font-bold">Education</h2>
-        <div id="university">
+        <h2 className="text-3xl mb-20 font-bold">Education</h2>
+
+        <div id="university" className="flex flex-col">
           <h3 className="text-2xl mb-5">
             king mongkut's university of technology thonburi
           </h3>
@@ -35,7 +36,7 @@ function Home() {
           <h6 className="text-lg">(First Semester, Freshman Year)</h6>
         </div>
 
-        <div id="school" className="mt-12">
+        <div id="school" className="mt-32 flex flex-col">
           <h3 className="text-2xl mb-5">Sarasas Pittaya School</h3>
           <h4 className="text-xl font-semibold mb-4">High School Diploma</h4>
           <h5 className="text-lg">2019 - 2021 </h5>
@@ -59,13 +60,17 @@ function Home() {
           {/* REACT TAILWIND MUI */}
           <div className="flex flex-row justify-center mb-10">
             <img src="../assets/react.png" alt="React" className="w-20" />
-            <img src="../assets/tailwind.png" alt="Tailwind" className="w-20 ml-5 mr-5" />
+            <img
+              src="../assets/tailwind.png"
+              alt="Tailwind"
+              className="w-20 ml-5 mr-5"
+            />
             <img src="../assets/material-ui.png" alt="MUI" className="w-20" />
           </div>
         </div>
 
         <div id="Version Control">
-          <h3 className="text-2xl font-semibold mb-10" >Version Control</h3>
+          <h3 className="text-2xl font-semibold mb-10">Version Control</h3>
           <div className="flex flex-row justify-center mb-10">
             <img src="../assets/git.png" alt="git" className="w-20 mr-5" />
             <img src="../assets/github.png" alt="github" className="w-20" />
@@ -73,7 +78,7 @@ function Home() {
         </div>
 
         <div id="Design">
-          <h3 className="text-2xl font-semibold mb-10" >Design</h3>
+          <h3 className="text-2xl font-semibold mb-10">Design</h3>
           <div className="flex flex-row justify-center">
             <img src="../assets/canva.png" alt="canva" className="w-20 mr-5" />
             <img src="../assets/figma.png" alt="figma" className="w-20" />
