@@ -19,7 +19,7 @@ header {
     height: 80px;
     padding: 0 2rem;
     background-color: var(--mainNavColor);
-    color: var(--textNavColor);
+    color: var(--textNavColor);    
 }
 
 

@@ -2,6 +2,7 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import { useRef } from "react";
 import "../Styles/Navbar.css";
 import { NavLink } from "react-router-dom";
+import React , {useState , useEffect} from "react";
 
 function Navbar() {
   const navRef = useRef();

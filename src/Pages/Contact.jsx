@@ -1,8 +1,10 @@
 import "../Styles/Contact.css";
+import { Bounce} from "react-awesome-reveal";
 
 function Contact() {
   return (
     <div>
+      <Bounce>
       <div className="mt-60 flex flex-row mx-auto w-96 contact">
         <a href="https://github.com/Pheeraphat47" target={"_blank"} className="mr-10">
           <img
@@ -38,7 +40,8 @@ function Contact() {
             className="hover:scale-150 duration-150 cursor-pointer"
           />
         </a>
-      </div>      
+      </div> 
+      </Bounce>     
     </div>
   );
 }

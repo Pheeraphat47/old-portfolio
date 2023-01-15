@@ -7,6 +7,7 @@ import Award from './Pages/Award';
 import Project from './Pages/Project';
 import Activity from './Pages/Activity';
 import Contact from './Pages/Contact';
+import "./Styles/App.css";
 
 
 
