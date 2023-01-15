@@ -6,12 +6,7 @@ function Activity() {
     <div>
       <h1 className="text-5xl mt-32 text-center font-bold topic">Activity</h1>
 
-      {/* เรียงตามวันที่ได้  (ก่อน-หลัง)
-              1. Tobeit66
-              2. Charmcase Competition
-              3. Climathon
-              4. SIT Helloworld
-            */}
+      
 
       <div className="mt-40">
         <div className="flex flex-row justify-center first_column">
