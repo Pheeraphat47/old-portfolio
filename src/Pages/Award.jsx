@@ -26,7 +26,7 @@ function Award() {
               SIT Helloworld
             </h3>
             <p className="text-center text-lg">Best Front-End Development</p>  
-            <button className="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded-full ml-24 mt-5 mb-5">Readmore</button>         
+            <a href="https://drive.google.com/file/d/1icsecd2tCdOTn2Agm6_f_SI9oezNeeJX/view?usp=sharing" target={"_blank"}><button className="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded-full ml-24 mt-5 mb-5">Readmore</button>         </a>
           </div>
 
           <div className="second shadow-2xl hover:scale-110 duration-150 ">
@@ -39,7 +39,7 @@ function Award() {
               Climathon BKK
             </h3>
             <p className="text-center text-lg">1st Runner Up</p>
-            <button className="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded-full ml-24 mt-5 mb-5">Readmore</button>
+            <a href="https://drive.google.com/file/d/1DkveOlw8Qjb57sEEIXn9HGEX5WMGF2VP/view?usp=sharing" target={"_blank"}><button className="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded-full ml-24 mt-5 mb-5">Readmore</button></a>
           </div>
         </div>
 
@@ -54,7 +54,7 @@ function Award() {
               Charm Case Competition
             </h3>
             <p className="text-center text-lg">1st Runner Up</p>
-            <button className="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded-full ml-24 mt-5 mb-5">Readmore</button>
+            <a href="https://drive.google.com/file/d/18NBmkBfjH2loKFBOdnHEeQQsLNWXJjH1/view?usp=sharing" target={"_blank"}><button className="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded-full ml-24 mt-5 mb-5">Readmore</button></a>
           </div>
 
           <div className="fourth shadow-2xl hover:scale-110 duration-150">
@@ -67,7 +67,7 @@ function Award() {
               Tobeit66
             </h3>
             <p className="text-center text-lg">Best Project Award</p>
-            <button className="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded-full ml-24 mt-5 mb-5">Readmore</button>
+            <a href="https://drive.google.com/file/d/1ncKqNUKpef2AzZDpqYc8RDsupxLjsbkr/view?usp=sharing" target={"_blank"}><button className="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded-full ml-24 mt-5 mb-5">Readmore</button></a>
           </div>
         </div>
       </div>
