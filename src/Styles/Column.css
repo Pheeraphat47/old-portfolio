@@ -5,8 +5,9 @@
     }
 
     .first{
-        margin: 0 auto;
+        margin: 0 auto;            
     }
+    
 
     .second{
         margin-top: 10rem;
@@ -39,3 +40,4 @@
         width: -2%;
     }
 }
+

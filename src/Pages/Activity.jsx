@@ -23,6 +23,7 @@ function Activity() {
               Young Innovators Bootcamp
             </h3>
             <p className="text-center text-lg">EnergyNex (Rank 4th from 10 teams)</p>
+            <button className="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded-full ml-24 mt-5 mb-5">Readmore</button>
           </div>
 
           <div className="second shadow-2xl hover:scale-110 duration-150 ">
@@ -35,6 +36,7 @@ function Activity() {
               My Better Country Hackathon
             </h3>
             <p className="text-center text-lg">Konrad-Adenauer-Stiftung</p>
+            <button className="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded-full ml-24 mt-5 mb-5">Readmore</button>
           </div>
         </div>
         
@@ -51,6 +53,7 @@ function Activity() {
               International Startup Coding 
             </h3>
             <p className="text-center text-lg">42 Bangkok (Rank 19th from 26 teams)</p>
+            <button className="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded-full ml-24 mt-5 mb-5">Readmore</button>
           </div>
 
           <div className="fourth shadow-2xl hover:scale-110 duration-150">
@@ -63,6 +66,7 @@ function Activity() {
               CAI CLUB HACKATHON
             </h3>
             <p className="text-center text-lg">CPALL</p>
+            <button className="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded-full ml-24 mt-5 mb-5">Readmore</button>
           </div>
         </div>
         

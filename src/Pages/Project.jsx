@@ -29,6 +29,7 @@ function Project() {
               Worldcup Website
             </h3>
             <p className="text-center text-lg">Nodejs&Expressjs Projects</p>
+            <button className="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded-full ml-24 mt-5 mb-5">Readmore</button>
           </div>
 
           <div className="second shadow-2xl hover:scale-110 duration-150 ">
@@ -41,6 +42,7 @@ function Project() {
               Form Validation
             </h3>
             <p className="text-center text-lg">React Projects</p>
+            <button className="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded-full ml-24 mt-5 mb-5">Readmore</button>
           </div>          
         </div>
         
@@ -58,6 +60,7 @@ function Project() {
               Diary
             </h3>
             <p className="text-center text-lg">Web Technology Projects</p>
+            <button className="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded-full ml-24 mt-5 mb-5">Readmore</button>
           </div>
 
           <div className="fourth shadow-2xl hover:scale-110 duration-150">
@@ -70,6 +73,7 @@ function Project() {
               To-do-list
             </h3>
             <p className="text-center text-lg">TypeScript Projects</p>
+            <button className="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded-full ml-24 mt-5 mb-5">Readmore</button>
           </div>
         </div>
         
