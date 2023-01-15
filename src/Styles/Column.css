@@ -1,0 +1,41 @@
+@media screen and (max-width: 820px) {
+    .first_column{
+        flex-direction: column;        
+        align-items: center;       
+    }
+
+    .first{
+        margin: 0 auto;
+    }
+
+    .second{
+        margin-top: 10rem;
+    }
+
+    .third{
+        margin: 0 auto;
+    }
+
+    .fourth{
+        margin-top: 10rem;
+    }
+
+    .second_column{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .topic{
+        font-size: 2.441rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .first_column{
+        width: -2%;
+    }
+
+    .second_column{
+        width: -2%;
+    }
+}

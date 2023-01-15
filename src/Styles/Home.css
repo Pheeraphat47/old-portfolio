@@ -1,0 +1,12 @@
+@media  screen and (max-width:1060px){
+    .skill_content{
+        flex-direction: column;
+        margin-right: -5px;
+    }
+
+    #VersionControl{
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
+

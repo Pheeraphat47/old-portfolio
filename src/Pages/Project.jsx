@@ -1,7 +1,10 @@
+import "../Styles/Column.css";
+
+
 function Project() {
   return (
     <div>
-      <h1 className="text-5xl mt-32 text-center font-bold">Projects</h1>
+      <h1 className="text-5xl mt-32 text-center font-bold topic">Projects</h1>
 
       {/* เรียงตามวันที่ได้  (ก่อน-หลัง)
               1. Tobeit66
@@ -11,8 +14,8 @@ function Project() {
             */}
 
       <div className="mt-40">
-        <div className="flex flex-row justify-center">
-          <div className="worldcup mr-40 shadow-2xl hover:scale-110 duration-150 ">
+        <div className="flex flex-row justify-center first_column">
+          <div className="first mr-40 shadow-2xl hover:scale-110 duration-150 ">
             <img
               src="../img/worldcup.png"
               alt="worldcup"
@@ -24,7 +27,7 @@ function Project() {
             <p className="text-center text-lg">Nodejs&Expressjs Projects</p>
           </div>
 
-          <div className="registrationform shadow-2xl hover:scale-110 duration-150 ">
+          <div className="second shadow-2xl hover:scale-110 duration-150 ">
             <img
               src="../img/Registrationform.png"
               alt="Registrationform"
@@ -37,8 +40,8 @@ function Project() {
           </div>
         </div>
 
-        <div className="flex flex-row justify-center mt-40">
-          <div className="diary mr-40 shadow-2xl hover:scale-110 duration-150 ">
+        <div className="flex flex-row justify-center mt-40 second_column">
+          <div className="third mr-40 shadow-2xl hover:scale-110 duration-150 ">
             <img
               src="../img/Diary.png"
               alt="Diary"
@@ -50,7 +53,7 @@ function Project() {
             <p className="text-center text-lg">Web Technology Projects</p>
           </div>
 
-          <div className="todolist shadow-2xl hover:scale-110 duration-150">
+          <div className="fourth shadow-2xl hover:scale-110 duration-150">
             <img
               src="../img/todolist.png"
               alt="todolist"

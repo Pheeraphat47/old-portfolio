@@ -1,7 +1,10 @@
+import "../Styles/Column.css";
+
+
 function Activity() {
   return (
     <div>
-      <h1 className="text-5xl mt-32 text-center font-bold">Activity</h1>
+      <h1 className="text-5xl mt-32 text-center font-bold topic">Activity</h1>
 
       {/* เรียงตามวันที่ได้  (ก่อน-หลัง)
               1. Tobeit66
@@ -11,11 +14,11 @@ function Activity() {
             */}
 
       <div className="mt-40">
-        <div className="flex flex-row justify-center">
-          <div className="helloworld mr-40 shadow-2xl hover:scale-110 duration-150 ">
+        <div className="flex flex-row justify-center first_column">
+          <div className="first mr-40 shadow-2xl hover:scale-110 duration-150 ">
             <img
               src="../img/Energynex.jpg"
-              alt="helloworld"
+              alt="energynex"
               className="w-80 h-96 object-cover"
             />
             <h3 className="text-center text-xl font-semibold pt-3 pb-2">
@@ -24,10 +27,10 @@ function Activity() {
             <p className="text-center text-lg">EnergyNex (Rank 4th from 10 teams)</p>
           </div>
 
-          <div className="climathon shadow-2xl hover:scale-110 duration-150 ">
+          <div className="second shadow-2xl hover:scale-110 duration-150 ">
             <img
               src="../img/bettercountry.jpg"
-              alt="environhack"
+              alt="mybettercountry"
               className="w-80 h-96 object-cover"
             />
             <h3 className="text-center text-xl font-semibold pt-3 pb-2">
@@ -37,11 +40,11 @@ function Activity() {
           </div>
         </div>
 
-        <div className="flex flex-row justify-center mt-40">
-          <div className="charmcase mr-40 shadow-2xl hover:scale-110 duration-150 ">
+        <div className="flex flex-row justify-center mt-40 second_column">
+          <div className="third mr-40 shadow-2xl hover:scale-110 duration-150 ">
             <img
               src="../img/42Bangkok.jpg"
-              alt="chula"
+              alt="42Bangkok"
               className="w-80 h-96 object-cover"
             />
             <h3 className="text-center text-xl font-semibold pt-3 pb-2">
@@ -50,10 +53,10 @@ function Activity() {
             <p className="text-center text-lg">42 Bangkok (Rank 19th from 26 teams)</p>
           </div>
 
-          <div className="tobeit shadow-2xl hover:scale-110 duration-150">
+          <div className="fourth shadow-2xl hover:scale-110 duration-150">
             <img
               src="../img/Caihackathon.jpg"
-              alt="tobeit"
+              alt="caihackathon"
               className="w-80 h-96 object-cover"
             />
             <h3 className="text-center text-2xl font-semibold pt-3 pb-2">

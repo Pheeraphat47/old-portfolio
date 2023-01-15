@@ -1,7 +1,9 @@
+import "../Styles/Column.css";
+
 function Award() {
   return (
-    <div>
-      <h1 className="text-5xl mt-32 text-center font-bold">Award&Honors</h1>
+    <div> 
+      <h1 className="text-5xl mt-32 text-center font-bold topic">Award&Honors</h1>
 
       {/* เรียงตามวันที่ได้  (ก่อน-หลัง)
               1. Tobeit66
@@ -11,8 +13,8 @@ function Award() {
             */}
 
       <div className="mt-40">
-        <div className="flex flex-row justify-center">
-          <div className="helloworld mr-40 shadow-2xl hover:scale-110 duration-150 ">
+        <div className="flex flex-row justify-center first_column">
+          <div className="first mr-40 shadow-2xl hover:scale-110 duration-150 ">
             <img
               src="../img/Helloworld.jpg"
               alt="helloworld"
@@ -22,7 +24,7 @@ function Award() {
             <p className="text-center text-lg">Best FrontEnd Development</p>
           </div>
 
-          <div className="climathon shadow-2xl hover:scale-110 duration-150 ">
+          <div className="second shadow-2xl hover:scale-110 duration-150 ">
             <img
               src="../img/Environhack.jpg"
               alt="environhack"
@@ -33,8 +35,8 @@ function Award() {
           </div>
         </div>
 
-        <div className="flex flex-row justify-center mt-40">
-          <div className="charmcase mr-40 shadow-2xl hover:scale-110 duration-150 ">
+        <div className="flex flex-row justify-center mt-40 second_column">
+          <div className="third mr-40 shadow-2xl hover:scale-110 duration-150 ">
             <img
               src="../img/Chula.png"
               alt="chula"
@@ -44,7 +46,7 @@ function Award() {
             <p className="text-center text-lg">1st Runner Up</p>
           </div>
 
-          <div className="tobeit shadow-2xl hover:scale-110 duration-150">
+          <div className="fourth shadow-2xl hover:scale-110 duration-150">
             <img
               src="../img/Tobeit.jpg"
               alt="tobeit"
