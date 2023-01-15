@@ -1,4 +1,14 @@
+import React from "react";
+import { useTypewriter, Cursor } from "react-simple-typewriter";
+
 function Home() {
+  const [texts] = useTypewriter({
+    words: ['Pheeraphat Dherachaisuphakij'],
+    loop: 1,
+    typeSpeed: 120,
+    deleteSpeed: 80,
+  });
+
   return (
     <div>
       <div id="profile" className="flex flex-col text-center mt-32">
@@ -8,7 +18,13 @@ function Home() {
           className="w-80 rounded-full object-cover mx-auto"
         />
         <h1 className="text-4xl mt-10">Hello world!!👋</h1>
-        <h1 className="text-4xl mt-2">I'm Pheeraphat Dherachaisuphakij</h1>
+        <h1 className="text-4xl mt-2">
+          I'm&nbsp;
+          <span className="font-bold text-yellow-500">{texts}</span>
+          <span style={{ color: 'red' }}>
+            <Cursor/>
+          </span>
+        </h1>
         <h2 className="text-2xl mt-5">
           I'm Interested in FrontEnd Development 🧑‍💻
         </h2>
