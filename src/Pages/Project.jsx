@@ -5,14 +5,19 @@ import { Bounce , JackInTheBox} from "react-awesome-reveal";
 function Project() {
   return (
     <div>
-      <JackInTheBox>
+      
       <h1 className="text-5xl mt-32 text-center font-bold topic text-yellow-500">Projects</h1>
-      </JackInTheBox>
+      
 
-     
+      {/* เรียงตามวันที่ได้  (ก่อน-หลัง)
+              1. Tobeit66
+              2. Charmcase Competition
+              3. Climathon
+              4. SIT Helloworld
+            */}
 
       <div className="mt-40">
-        <Bounce>
+        
         <div className="flex flex-row justify-center first_column">
           <div className="first mr-40 shadow-2xl hover:scale-110 duration-150 ">
             <img
@@ -38,10 +43,10 @@ function Project() {
             <p className="text-center text-lg">React Projects</p>
           </div>          
         </div>
-        </Bounce>
+        
         
          
-       <Bounce>
+       
         <div className="flex flex-row justify-center mt-40 second_column">
           <div className="third mr-40 shadow-2xl hover:scale-110 duration-150 ">
             <img
@@ -67,7 +72,7 @@ function Project() {
             <p className="text-center text-lg">TypeScript Projects</p>
           </div>
         </div>
-        </Bounce>
+        
       </div>
     </div>
   );

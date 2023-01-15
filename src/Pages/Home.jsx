@@ -1,7 +1,7 @@
 import React from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import "../Styles/Home.css";
-import { JackInTheBox , Bounce , Slide } from "react-awesome-reveal";
+
 
 function Home() {
   const [texts] = useTypewriter({
@@ -14,14 +14,14 @@ function Home() {
   return (
     <div>
       <div id="profile" className="flex flex-col text-center mt-32">
-        <Bounce>
+        
         <img
           src="../img/profilepic.jpg"
           alt="profile"
           className="w-80 rounded-full object-cover mx-auto"
         />
-        </Bounce>
-        <Bounce>
+        
+        
         <h1 className="text-4xl mt-10">Hello world!!👋</h1>
         
         
@@ -44,15 +44,15 @@ function Home() {
           This is my Portfolio Website its have some of my activity in my
           experience that will give you know about me better
         </h4>
-        </Bounce>
+        
       </div>
 
       <div id="education" className="mt-44 text-center">
-        <JackInTheBox>
-        <h2 className="text-4xl mb-20 font-bold text-yellow-500">Education</h2>
-        </JackInTheBox>
         
-        <Slide>
+        <h2 className="text-4xl mb-20 font-bold text-yellow-500">Education</h2>
+        
+        
+        
         <div id="university" className="flex flex-col">
           <h3 className="text-2xl mb-5">
             king mongkut's university of technology thonburi
@@ -69,17 +69,17 @@ function Home() {
           <h4 className="text-xl font-semibold mb-4">High School Diploma</h4>
           <h5 className="text-lg">2019 - 2021 </h5>
         </div>
-        </Slide>
+        
         
       </div>
       
      
       <div id="skill" className="mt-44 text-center">
-        <JackInTheBox>
+        
         <h2 className="text-4xl mb-10 font-bold text-yellow-500">Technical Skill</h2>
-        </JackInTheBox>
+        
 
-        <Bounce>
+        
         <div className="skill_content flex flex-row justify-center mr-24 mt-20">
           <div id="Frontend">
             <h3 className="text-2xl font-semibold mb-10">Frontend</h3>
@@ -129,7 +129,7 @@ function Home() {
             </div>
           </div>
         </div>
-        </Bounce>
+        
       </div>
     </div>
   );

@@ -1,5 +1,13 @@
-@media screen and (max-width:425px) {
-    .contact{        
-        width: 18rem;;
+@media screen and (max-width: 425px) {
+    .contact{
+        width: 19rem;
     }
+}
+
+@media screen and (max-width: 320px) {
+
+    .contact{
+        width: 17rem;
+    }
+    
 }
