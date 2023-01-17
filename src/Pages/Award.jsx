@@ -2,11 +2,7 @@ import "../Styles/Column.css";
 import React, { useState } from "react";
 
 function Award() {
-  const [modal, setModal] = useState(false);
-
-  const toggleModal = () => {
-    setModal(!modal);
-  };
+  
 
   return (
     <div>

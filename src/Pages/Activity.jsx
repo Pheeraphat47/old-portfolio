@@ -22,7 +22,7 @@ function Activity() {
             <h3 className="text-center text-xl font-semibold pt-3 pb-2">
               Young Innovators Bootcamp
             </h3>
-            <p className="text-center text-lg">EnergyNex (Rank 4th from 10 teams)</p>
+            <p className="text-center text-lg">EnergyNex (Rank 4th from 10 team)</p>
             <button className="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded-full ml-24 mt-5 mb-5">Readmore</button>
           </div>
 
@@ -52,7 +52,7 @@ function Activity() {
             <h3 className="text-center text-xl font-semibold pt-3 pb-2">
               International Startup Coding 
             </h3>
-            <p className="text-center text-lg">42 Bangkok (Rank 19th from 26 teams)</p>
+            <p className="text-center text-lg">42 Bangkok (Rank 19th from 26 team)</p>
             <button className="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded-full ml-24 mt-5 mb-5">Readmore</button>
           </div>
 
