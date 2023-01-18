@@ -67,7 +67,9 @@ function Home() {
         <div id="school" className="mt-32 flex flex-col">
           <h3 className="text-2xl mb-5">Sarasas Pittaya School</h3>
           <h4 className="text-xl font-semibold mb-4">High School Diploma</h4>
-          <h5 className="text-lg">2019 - 2021 </h5>
+          <h5 className="text-lg">2019 - 2021 </h5> <br />
+          <h5 className="text-lg"><strong>GPAX :</strong> 3.33</h5>
+          
         </div>
         
         
