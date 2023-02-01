@@ -24,8 +24,8 @@ function Navbar() {
   
   return (
     <header>
-      <h3 className="text-3xl font-bold italic">Portfolio</h3>
-      <nav ref={navRef} onClick={hideNavbar}>
+      <h3 className="text-3xl font-bold italic homelogo">Portfolio</h3>
+      <nav ref={navRef} onClick={hideNavbar} >
         <NavLink to="/" id ="nav-link" style={navLinkStyles} >
           Home
         </NavLink>

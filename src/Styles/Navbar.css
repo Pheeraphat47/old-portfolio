@@ -12,27 +12,31 @@
     --textNavColor: #eee;
 }
 
-header {    
+header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 80px;
     padding: 0 2rem;
     background-color: var(--mainNavColor);
-    color: var(--textNavColor);    
+    color: var(--textNavColor);
+}
+
+nav{
+    order: 1;
 }
 
 
 
-#nav-link{
-    margin: 0 2rem  ;
+#nav-link {
+    margin: 0 2rem;
     color: var(--textNavColor);
     text-decoration: none;
-    font-size: 1.25em;    
+    font-size: 1.25em;
 }
 
-#nav-link:hover{
-   opacity: 0.75;
+#nav-link:hover {
+    opacity: 0.75;
 }
 
 
@@ -59,7 +63,7 @@ header .nav-btn {
         opacity: 1;
     }
 
-    header nav{
+    header nav {
         position: fixed;
         top: 0;
         left: 0;
@@ -75,19 +79,17 @@ header .nav-btn {
         transform: translateY(-100vh);
     }
 
-    header .responsive_nav{
+    header .responsive_nav {
         transform: none;
     }
 
     nav .nav-close-btn {
         position: absolute;
         top: 2rem;
-        right: 2rem;        
+        right: 2rem;
     }
 
     .nav-link {
         font-size: 1.5rem;
     }
-
-    
 }
